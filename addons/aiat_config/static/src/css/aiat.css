@@ -151,3 +151,29 @@ label.control-label.mandatory.text-danger {
         width: auto;
         min-width: 0;
     }
+#top_menu > li:nth-child(5) > a {
+    display: none;
+}
+/* Login Buttons */
+#top_menu > li.divider {
+  display: none;
+}
+#top_menu > li:last-child {
+  display: none;
+}
+#wsd_checkout_steps_nav > div > div > a.btn.btn-primary.navbar-btn {
+  display: none;
+}
+/* Login buttons end */
+.ppt_opc #website_sale_donate .oe_price_h4 {
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 0px;
+    padding: 5px;
+}
+#wsd_checkout_form  .payment_interval_ids .form-control-feedback {
+    top: 0px !important;
+    right: 10px;
+}
