@@ -28,5 +28,3 @@ Customer configuration for the instance aiat
         'views/templates.xml',
     ],
 }
-
-    

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
-    <data>
+<openerp><data>
+
     <!-- CUSTOM BOOTSTRAP THEME FOR Amnesty International -->
     <!-- HINT: http://getbootstrap.com/customize -->
     <template id="aiat_theme_option" inherit_id="website.themes" name="aiat Theme Option">
@@ -48,5 +48,4 @@
     </template>
     -->
 
-    </data>
-</openerp>
+</data></openerp>
