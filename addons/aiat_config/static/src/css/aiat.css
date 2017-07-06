@@ -1,0 +1,153 @@
+.navbar-static-top .container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+50,80c217+51,7cbc0a+100;Green+Gloss+%231 */
+background: #c7c2ba; /* Old browsers */
+background: -moz-linear-gradient(left, #fff 0%, #fff 50%, #c7c2ba 50%, #c7c2ba 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fff 0%,#fff 50%,#c7c2ba 50%,#c7c2ba 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fff 0%,#fff 50%,#c7c2ba 50%,#c7c2ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=1 ); /* IE6-9 */
+}
+.navbar-default {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-static-top {
+    background: transparent;
+}
+.navbar-default {
+    border-color: transparent;
+}
+/*
+.navbar-static-top {
+    width: 820px;
+    margin: auto;
+}*/
+.navbar-collapse.navbar-top-collapse.collapse.in {
+    margin: none;
+    margin-left: 50%;
+}
+
+@media (min-width: 768px) {
+    .navbar-static-top .navbar-right {
+        position:absolute;
+        /*width: calc(100% - 50% + 20px);*/
+        /*margin-right: 250px;*/
+        left: calc(100% - 50% + 10px);
+        left:-webkit-calc(100% - 50% + 10px);
+        left:-moz-calc(100% - 50% + 10px);
+        background-color: transparent;
+        margin-top: 15px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .navbar-static-top .navbar-nav>li {
+        float: none;
+    }
+/*
+    .navbar-static-top .navbar-nav>li.active:after {
+        content: "\f004";
+    }
+*/
+    .navbar-static-top .navbar-nav > li > a {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+.navbar-static-top .navbar-nav .divider {
+    display: none;
+}
+header a.navbar-brand img {
+    max-height: none;
+    width: 240px;
+    height:74px;
+    position: relative;
+    top: 30%;
+}
+
+#footer .container {
+    /*width: 820px;
+    margin: auto;*/
+    background-color: #c7c2ba;
+}
+
+/* schnell Shop*/
+.table-striped>tbody>tr {
+    background-color: rgba(249, 249, 249, 0) !important;
+}
+
+#cart_products .input-group-addon {
+    background-color: #c7c2ba;
+}
+
+.checkout_steps_indicator.nav.nav-tabs.navbar-left {
+    background-color: #000;
+
+}
+.nav-tabs>li>a {
+    color: #fff;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #000;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #000;
+}
+
+.form_control {
+    background-color: rgba(255, 255, 255, 0.46) !important;
+}
+.has-feedback .form-control {
+    padding-right: 10px;
+}
+#wsd_checkout_form .form-control-feedback {
+    top: 25px !important;
+}
+#wsd_checkout_steps_nav .navbar-btn {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+    @media (max-width: 400px) {
+        .oe_cart {
+            display: inline-grid;
+        }
+    }
+
+#payment_method .nav-tabs>li>a {
+    background-color: #000;
+    color: #fff;
+}
+.ppt_opc #website_sale_donate .oe_price_h4 {
+    width: 20%;
+    margin: auto;
+    background-color: #c7c2ba;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+.acquirer_pre_msg>span {
+    background-color: transparent !important;
+}
+
+/* OnePage Checkout end */
+/* Spendenformular Anpassung Pflichtfelder */
+label.control-label.mandatory.text-danger:before {
+content: '*';
+}
+label.control-label.mandatory.text-danger:after {
+content: '(Pflichtfeld)';
+font-size: 11px;
+color: #a19e98;
+}
+label.control-label.mandatory.text-danger {
+    color: #000;
+}
+.has-success .form-control {
+    border-color: #000;
+}
+    #wrap .apf_container.container {
+        width: auto;
+        min-width: 0;
+    }

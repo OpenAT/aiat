@@ -21,7 +21,9 @@ Customer configuration for the instance aiat
     'depends': [
         'fsonline',
     ],
-    'data': [],
+    'data': [
+        'views/templates.xml',
+    ],
 }
 
     
