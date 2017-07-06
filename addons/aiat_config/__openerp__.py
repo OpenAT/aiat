@@ -19,7 +19,10 @@ Customer configuration for the instance aiat
     'website': 'https://www.datadialog.net',
     'installable': True,
     'depends': [
-        'fsonline',
+        'sale',
+        'portal_sale',
+        'website',
+        'website_sale_donate',
     ],
     'data': [
         'views/templates.xml',
