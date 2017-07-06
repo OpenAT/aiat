@@ -77,7 +77,11 @@ header a.navbar-brand img {
 }
 
 #cart_products .input-group-addon {
-    background-color: #c7c2ba;
+    background-color: #b8b2a8;
+}
+
+.price_donate .input-group-addon {
+    background-color: #b8b2a8 !important;
 }
 
 .checkout_steps_indicator.nav.nav-tabs.navbar-left {
@@ -173,7 +177,18 @@ label.control-label.mandatory.text-danger {
     border-radius: 0px;
     padding: 5px;
 }
+/* Checkout Box */
+
+#price_donate {
+    color: inherit;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+}
 #wsd_checkout_form  .payment_interval_ids .form-control-feedback {
     top: 0px !important;
     right: 10px;
+}
+#wsd-checkout-box .panel {
+    background-color: transparent;
+    border: 1px solid #000;
 }
