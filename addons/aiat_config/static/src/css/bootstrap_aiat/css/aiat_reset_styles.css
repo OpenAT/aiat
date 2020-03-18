@@ -71,3 +71,8 @@ div.form-danke input[type=radio] {
     width: initial;
     height: initial;
 }
+
+
+body .oe_overlay .oe_overlay_options {
+    top: -34px;
+}

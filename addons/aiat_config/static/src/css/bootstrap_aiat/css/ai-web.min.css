@@ -90,52 +90,52 @@ form input[type="text"]::-ms-input-placeholder, form select::-ms-input-placehold
     color: #363636
 }
 
-form input[type=radio], div.form-danke input[type=radio] {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px
-}
+/*form input[type=radio], div.form-danke input[type=radio] {*/
+/*    border: 0;*/
+/*    clip: rect(0 0 0 0);*/
+/*    height: 1px;*/
+/*    margin: -1px;*/
+/*    overflow: hidden;*/
+/*    padding: 0;*/
+/*    position: absolute;*/
+/*    width: 1px*/
+/*}*/
 
-form input[type=radio] + label:before, div.form-danke input[type=radio] + label:before {
-    margin-right: 5px;
-    position: relative;
-    top: 3px;
-    font-family: FontAwesome;
-    content: '\f1db';
-    font-size: 1.5em;
-    color: #363636
-}
+/*form input[type=radio] + label:before, div.form-danke input[type=radio] + label:before {*/
+/*    margin-right: 5px;*/
+/*    position: relative;*/
+/*    top: 3px;*/
+/*    font-family: FontAwesome;*/
+/*    content: '\f1db';*/
+/*    font-size: 1.5em;*/
+/*    color: #363636*/
+/*}*/
 
-form input[type=radio]:checked + label:before, div.form-danke input[type=radio]:checked + label:before {
-    content: '\f192'
-}
+/*form input[type=radio]:checked + label:before, div.form-danke input[type=radio]:checked + label:before {*/
+/*    content: '\f192'*/
+/*}*/
 
-form input[type=checkbox], div.form-danke input[type=checkbox] {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px
-}
+/*form input[type=checkbox], div.form-danke input[type=checkbox] {*/
+/*    border: 0;*/
+/*    clip: rect(0 0 0 0);*/
+/*    height: 1px;*/
+/*    margin: -1px;*/
+/*    overflow: hidden;*/
+/*    padding: 0;*/
+/*    position: absolute;*/
+/*    width: 1px*/
+/*}*/
 
-form input[type=checkbox] + label:before, form input[type=checkbox] + input[type=hidden] + label:before, div.form-danke input[type=checkbox] + label:before, div.form-danke input[type=checkbox] + input[type=hidden] + label:before {
-    position: relative;
-    top: 3px;
-    font-family: FontAwesome;
-    content: '\f096';
-    font-size: 1.5em;
-    color: #363636;
-    width: 1.2em;
-    display: inline-block
-}
+/*form input[type=checkbox] + label:before, form input[type=checkbox] + input[type=hidden] + label:before, div.form-danke input[type=checkbox] + label:before, div.form-danke input[type=checkbox] + input[type=hidden] + label:before {*/
+/*    position: relative;*/
+/*    top: 3px;*/
+/*    font-family: FontAwesome;*/
+/*    content: '\f096';*/
+/*    font-size: 1.5em;*/
+/*    color: #363636;*/
+/*    width: 1.2em;*/
+/*    display: inline-block*/
+/*}*/
 
 form input[type=checkbox]:checked + label:before, form input[type=checkbox]:checked + input[type=hidden] + label:before, div.form-danke input[type=checkbox]:checked + label:before, div.form-danke input[type=checkbox]:checked + input[type=hidden] + label:before {
     content: '\f046'
