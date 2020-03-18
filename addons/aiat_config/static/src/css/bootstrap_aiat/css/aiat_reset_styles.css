@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+
+html body #oe_main_menu_navbar .btn,
+html body #oe_main_menu_navbar .btn.btn-xs,
+html body #oe_main_menu_navbar li button,
+html body #website-top-navbar .btn,
+html body #website-top-navbar .btn.btn-xs,
+html body #website-top-navbar li button {
+
+    line-height: 1;
+    /*padding: 10px;*/
+    /*font-size: 1.143rem;*/
+
+    padding: 8px 16px;
+    margin-top: 2px;
+    font-size: 13px;
+
+    min-height: initial;
+    height: initial;
+
+}
+
+html body #website-top-edit > ul > li.navbar-form.js_hide_on_translate > button {
+    margin-top: -4px;
+}
+
+.progress {
+    height: 60px;
+    background-color: #f5f5f5;
+    /*-webkit-box-shadow: none;*/
+    /*box-shadow: none;*/
+    border-radius: 0;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.37);
+
+}
+.progress-bar {
+    font-size: 28px;
+    line-height: 60px;
+    color: black;
+}
+
+
+input,
+form input[type=radio],
+div.form-danke input[type=radio] {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    /*color: -internal-light-dark-color(black, white);*/
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    /*background-color: -internal-light-dark-color(white, black);*/
+    -webkit-rtl-ordering: logical;
+    /*cursor: text;*/
+    margin: 0em;
+    /*font: 400 11px system-ui;*/
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    position: initial;
+    width: initial;
+    height: initial;
+}
