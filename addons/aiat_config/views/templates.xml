@@ -24,9 +24,16 @@
     <!-- load aiat theme css and js -->
     <template id="website.theme_aiat" name="AIAT" inherit_id="website.theme" active="False" customize_show="True">
         <xpath expr="//link[@id='bootstrap_css']" position="replace">
-            <link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/bootstrap.min.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/bootstrap-theme.min.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/aiat_config/static/src/css/aiat.css' t-ignore="true"/>
+            <!--<link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/bootstrap.min.css' t-ignore="true"/>-->
+            <!--<link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/bootstrap-theme.min.css' t-ignore="true"/>-->
+
+            <!-- Downloaded from AIAT webpage -->
+            <link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/aiat_bootstrap3.min.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/ai-web.min.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/aiat_font-awesome.min.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/aiat_config/static/src/css/bootstrap_aiat/css/aiat_reset_styles.css' t-ignore="true"/>
+
+            <!--<link rel='stylesheet' href='/aiat_config/static/src/css/aiat.css' t-ignore="true"/>-->
         </xpath>
     </template>
         
