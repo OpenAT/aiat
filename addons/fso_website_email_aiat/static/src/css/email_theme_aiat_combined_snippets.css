@@ -1,4 +1,3 @@
-
 /* Header and Footer Social Icons */
 a.aiat_social_icon {
     text-decoration: none;
@@ -10,9 +9,23 @@ a.aiat_social_icon img {
     max-height: 32px;
 }
 
+/* Open-In-Browser Snippet */
+/* ======================= */
+div.aiat_open_in_browser_snippet table tr td.flexibleContainerCell {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+div.aiat_open_in_browser_snippet p {
+    font-size: 12px;
+}
+
 /* Header Snippet */
+/* ============== */
 div.aiat_header_snippet .flexibleContainerCell {
     padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 div.aiat_header_snippet.snippet_block_text_image_left .flexibleContainerLeft,
 div.aiat_header_snippet.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage {
@@ -28,4 +41,13 @@ div.aiat_header_snippet table tr td.aiat_header_social_icons {
 }
 div.aiat_header_snippet p.aiat_header_social_icons {
     padding-right: 10px;
+}
+
+/* Footer Snippet */
+/* ============== */
+div.aiat_footer_snippet a.aiat_social_icon img {
+    width: 24px;
+    max-width: 24px;
+    height: auto;
+    max-height: 24px;
 }

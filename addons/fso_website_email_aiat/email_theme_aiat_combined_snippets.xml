@@ -20,6 +20,77 @@
         <xpath expr="//div[@id='snippet_email_special']" position="after">
             <div id="combined_snippets_aiat" class="tab-pane fade">
 
+                <!-- OPEN-IN-BROWSER SNIPPET -->
+                <!-- ======================= -->
+                <div>
+
+                    <!-- Open-In-Browser Snippet: Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_aiat/static/src/icons/snippet_block_aiat_open_in_browser.png"/>
+                        <span class="oe_snippet_thumbnail_title">Open-In-Browser</span>
+                    </div>
+                    <!-- Open-In-Browser: Body -->
+                    <div class="aiat_open_in_browser_snippet oe_snippet_body ckediting_disabled snippet_block snippet_block_text_intro">
+                        <table cellpadding="0"
+                               cellspacing="0"
+                               class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center"
+                                        valign="top">
+                                        <table border="0"
+                                               cellpadding="0"
+                                               cellspacing="0"
+                                               class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center"
+                                                        class="flexibleContainerCell"
+                                                        valign="top">
+                                                        <table border="0"
+                                                               cellpadding="0"
+                                                               cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0"
+                                                                               cellpadding="0"
+                                                                               cellspacing="0"
+                                                                               class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled">
+                                                                                        <p style="text-align: center;">
+                                                                                            Newsletter-Anmeldung Bestätigung<br/>
+                                                                                            Infomail <a href="%open_browser%" target="_blank">online</a> lesen.<br/>
+                                                                                            <br/>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                <!-- END: OPEN-IN-BROWSER SNIPPET -->
+                </div>
+
+
                 <!-- HEADER SNIPPET -->
                 <!-- ============== -->
                 <div>
@@ -27,7 +98,7 @@
                     <!-- Header Snippet: Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_aiat/static/src/icons/header_snippet.png"/>
+                             src="/fso_website_email_aiat/static/src/icons/snippet_block_aiat_header.png"/>
                         <span class="oe_snippet_thumbnail_title">Amnesty Header</span>
                     </div>
                     <!-- Header Snippet: Body -->
@@ -79,13 +150,9 @@
                                                                                                         valign="bottom">
                                                                                                         <p class="aiat_header_social_icons" style="text-align: right;">
                                                                                                             <span style="background-color: transparent; text-align: center;">
-                                                                                                                &amp;nbsp;
                                                                                                                 <a class="aiat_social_icon" href="https://www.facebook.com/AmnestyOesterreich"><img src="/fso_website_email_aiat/static/src/icons/aiat_facebook.jpg"/></a>
-                                                                                                                &amp;nbsp;
                                                                                                                 <a class="aiat_social_icon" href="https://twitter.com/AmnestyAustria"><img src="/fso_website_email_aiat/static/src/icons/aiat_twitter.jpg"/></a>
-                                                                                                                &amp;nbsp;
                                                                                                                 <a class="aiat_social_icon" href="httpss://www.instagram.com/amnestyaustria/"><img src="/fso_website_email_aiat/static/src/icons/aiat_instagram.jpg"/></a>
-                                                                                                                &amp;nbsp;
                                                                                                                 <a class="aiat_social_icon" href="https://www.youtube.com/channel/UC2KM7MJbLfgrVxppVxxKoSg"><img src="/fso_website_email_aiat/static/src/icons/aiat_youtube.jpg"/></a>
                                                                                                             </span>
                                                                                                         </p>
@@ -112,9 +179,6 @@
                         </table>
                     </div>
 
-                    <!-- END: Header Snippet: Body -->
-
-
                 <!-- END: HEADER SNIPPET -->
                 </div>
 
@@ -125,7 +189,7 @@
                     <!-- Footer Snippet: Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_aiat/static/src/icons/footer_snippet.png"/>
+                             src="/fso_website_email_aiat/static/src/icons/snippet_block_aiat_footer.png"/>
                         <span class="oe_snippet_thumbnail_title">Amnesty Footer</span>
                     </div>
                     <!-- Footer Snippet: Body -->
@@ -162,22 +226,15 @@
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td class="textContent ckediting_enabled">
-                                                                                        <p>&amp;nbsp;</p>
-
-                                                                                        <p class="aiat_header_social_icons" style="text-align: right;">
+                                                                                        <p class="aiat_header_social_icons">
                                                                                             Diskutiere mit:
                                                                                             <span style="background-color: transparent; text-align: center;">
-                                                                                                &amp;nbsp;
                                                                                                 <a class="aiat_social_icon" href="https://www.facebook.com/AmnestyOesterreich"><img src="/fso_website_email_aiat/static/src/icons/aiat_facebook.jpg"/></a>
-                                                                                                &amp;nbsp;
                                                                                                 <a class="aiat_social_icon" href="https://twitter.com/AmnestyAustria"><img src="/fso_website_email_aiat/static/src/icons/aiat_twitter.jpg"/></a>
-                                                                                                &amp;nbsp;
                                                                                                 <a class="aiat_social_icon" href="httpss://www.instagram.com/amnestyaustria/"><img src="/fso_website_email_aiat/static/src/icons/aiat_instagram.jpg"/></a>
-                                                                                                &amp;nbsp;
                                                                                                 <a class="aiat_social_icon" href="https://www.youtube.com/channel/UC2KM7MJbLfgrVxppVxxKoSg"><img src="/fso_website_email_aiat/static/src/icons/aiat_youtube.jpg"/></a>
                                                                                             </span>
                                                                                         </p>
-
                                                                                         <p>
                                                                                             <br/>
                                                                                             Die Zusendung von Information durch Amnesty International kann jederzeit mit Wirkung für die Zukunft durch eine Klick hier auf <a
@@ -190,7 +247,6 @@
                                                                                             <br/>
                                                                                             &amp;nbsp;
                                                                                         </p>
-
                                                                                         <p>Amnesty International Österreich, Lerchenfelder Gürtel 43/4/3, 1160 Wien
                                                                                             <br/>
                                                                                             Tel. (+43 1) 78008 | E-Mail:
@@ -198,7 +254,6 @@
                                                                                             <br/>
                                                                                             &amp;nbsp;
                                                                                         </p>
-
                                                                                         <p>
                                                                                             <a href="https://www.amnesty.at/de/impressum/">Impressum</a>
                                                                                             | ZVR-Nr.: 407408993 |

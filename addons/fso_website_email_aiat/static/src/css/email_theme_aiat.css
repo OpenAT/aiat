@@ -4,13 +4,20 @@
 html, body, #bodyTable, #bodyCell {
     background-color: #ffffff;
 }
+#wrapwrap {
+    margin-top: 42px;
+}
+#bodyCell {
+    padding-bottom: 1em;
+    padding-top: 0;
+}
 
 /* ---------- */
 /* Typography */
 /* ---------- */
 p, td, a, div, span {
     font-family: 'Open sans', Arial, Verdana, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: normal;
     color: #000000;
 }
