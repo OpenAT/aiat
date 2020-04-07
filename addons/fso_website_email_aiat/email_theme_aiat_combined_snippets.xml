@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_aiat_combined_snippets"
+              inherit_id="fso_website_email.theme_framework_snippets"
+              name="Amnesty Combined Snippets">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_aiat">
+                <a href="#combined_snippets_aiat" data-toggle="tab">Amnesty</a>
+            </li>
+        </xpath>
+
+        <!-- ====================== -->
+        <!-- AIAT COMBINED SNIPPETS -->
+        <!-- ====================== -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_aiat" class="tab-pane fade">
+
+                <!-- HEADER SNIPPET -->
+                <!-- ============== -->
+                <div>
+
+                    <!-- Header Snippet: Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_aiat/static/src/icons/header_snippet.png"/>
+                        <span class="oe_snippet_thumbnail_title">Amnesty Header</span>
+                    </div>
+                    <!-- Header Snippet: Body -->
+                    <div class="aiat_header_snippet oe_snippet_body snippet_block snippet_block_text_image_left dadi_sb_bg_orange ckediting_disabled">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+
+                                                                                        <table align="left"
+                                                                                               border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left"
+                                                                                                        class="imageContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <img class="flexibleImage" src="/fso_website_email_aiat/static/src/images/aiat_logo.png"/>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+
+                                                                                        <table align="right"
+                                                                                               border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerRight">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td class="aiat_header_social_icons textContent ckediting_enabled"
+                                                                                                        valign="bottom">
+                                                                                                        <p class="aiat_header_social_icons" style="text-align: right;">
+                                                                                                            <span style="background-color: transparent; text-align: center;">
+                                                                                                                &amp;nbsp;
+                                                                                                                <a class="aiat_social_icon" href="https://www.facebook.com/AmnestyOesterreich"><img src="/fso_website_email_aiat/static/src/icons/aiat_facebook.jpg"/></a>
+                                                                                                                &amp;nbsp;
+                                                                                                                <a class="aiat_social_icon" href="https://twitter.com/AmnestyAustria"><img src="/fso_website_email_aiat/static/src/icons/aiat_twitter.jpg"/></a>
+                                                                                                                &amp;nbsp;
+                                                                                                                <a class="aiat_social_icon" href="httpss://www.instagram.com/amnestyaustria/"><img src="/fso_website_email_aiat/static/src/icons/aiat_instagram.jpg"/></a>
+                                                                                                                &amp;nbsp;
+                                                                                                                <a class="aiat_social_icon" href="https://www.youtube.com/channel/UC2KM7MJbLfgrVxppVxxKoSg"><img src="/fso_website_email_aiat/static/src/icons/aiat_youtube.jpg"/></a>
+                                                                                                            </span>
+                                                                                                        </p>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- END: Header Snippet: Body -->
+
+
+                <!-- END: HEADER SNIPPET -->
+                </div>
+
+                <!-- FOOTER SNIPPET -->
+                <!-- ============== -->
+                <div>
+
+                    <!-- Footer Snippet: Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_aiat/static/src/icons/footer_snippet.png"/>
+                        <span class="oe_snippet_thumbnail_title">Amnesty Footer</span>
+                    </div>
+                    <!-- Footer Snippet: Body -->
+                    <div class="aiat_footer_snippet oe_snippet_body ckediting_disabled snippet_block snippet_block_text_intro dadi_sb_bg_grey">
+                        <table cellpadding="0"
+                               cellspacing="0"
+                               class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center"
+                                        valign="top">
+                                        <table border="0"
+                                               cellpadding="0"
+                                               cellspacing="0"
+                                               class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center"
+                                                        class="flexibleContainerCell"
+                                                        valign="top">
+                                                        <table border="0"
+                                                               cellpadding="0"
+                                                               cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0"
+                                                                               cellpadding="0"
+                                                                               cellspacing="0"
+                                                                               class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled">
+                                                                                        <p>&amp;nbsp;</p>
+
+                                                                                        <p class="aiat_header_social_icons" style="text-align: right;">
+                                                                                            Diskutiere mit:
+                                                                                            <span style="background-color: transparent; text-align: center;">
+                                                                                                &amp;nbsp;
+                                                                                                <a class="aiat_social_icon" href="https://www.facebook.com/AmnestyOesterreich"><img src="/fso_website_email_aiat/static/src/icons/aiat_facebook.jpg"/></a>
+                                                                                                &amp;nbsp;
+                                                                                                <a class="aiat_social_icon" href="https://twitter.com/AmnestyAustria"><img src="/fso_website_email_aiat/static/src/icons/aiat_twitter.jpg"/></a>
+                                                                                                &amp;nbsp;
+                                                                                                <a class="aiat_social_icon" href="httpss://www.instagram.com/amnestyaustria/"><img src="/fso_website_email_aiat/static/src/icons/aiat_instagram.jpg"/></a>
+                                                                                                &amp;nbsp;
+                                                                                                <a class="aiat_social_icon" href="https://www.youtube.com/channel/UC2KM7MJbLfgrVxppVxxKoSg"><img src="/fso_website_email_aiat/static/src/icons/aiat_youtube.jpg"/></a>
+                                                                                            </span>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            <br/>
+                                                                                            Die Zusendung von Information durch Amnesty International kann jederzeit mit Wirkung für die Zukunft durch eine Klick hier auf <a
+                                                                                                href="https://www.amnesty.at/newsletter-abmeldung/">E-Mail-Abmelden
+                                                                                        </a> widerrufen werden.
+                                                                                            <br/>
+                                                                                            Detaillierte Informationen sind transparent in unserem <a
+                                                                                                href="https://www.amnesty.at/datenschutz/">Datenschutzhinweis
+                                                                                        </a> zu finden.
+                                                                                            <br/>
+                                                                                            &amp;nbsp;
+                                                                                        </p>
+
+                                                                                        <p>Amnesty International Österreich, Lerchenfelder Gürtel 43/4/3, 1160 Wien
+                                                                                            <br/>
+                                                                                            Tel. (+43 1) 78008 | E-Mail:
+                                                                                            <a href="mailto:office@amnesty.at">office@amnesty.at</a>
+                                                                                            <br/>
+                                                                                            &amp;nbsp;
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            <a href="https://www.amnesty.at/de/impressum/">Impressum</a>
+                                                                                            | ZVR-Nr.: 407408993 |
+                                                                                            <a href="https://www.amnesty.at/datenschutz/">Datenschutz</a>
+                                                                                            <br/>
+                                                                                            &amp;nbsp;
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                <!-- END: FOOTER SNIPPET -->
+                </div>
+
+
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>

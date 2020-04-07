@@ -1,0 +1,31 @@
+
+/* Header and Footer Social Icons */
+a.aiat_social_icon {
+    text-decoration: none;
+}
+a.aiat_social_icon img {
+    width: 32px;
+    max-width: 32px;
+    height: auto;
+    max-height: 32px;
+}
+
+/* Header Snippet */
+div.aiat_header_snippet .flexibleContainerCell {
+    padding: 0;
+}
+div.aiat_header_snippet.snippet_block_text_image_left .flexibleContainerLeft,
+div.aiat_header_snippet.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage {
+    width: 300px;
+}
+div.aiat_header_snippet.snippet_block_text_image_left .flexibleContainerRight,
+div.aiat_header_snippet.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 240px;
+}
+div.aiat_header_snippet table tr td.aiat_header_social_icons {
+    vertical-align: bottom;
+    height: 100px;
+}
+div.aiat_header_snippet p.aiat_header_social_icons {
+    padding-right: 10px;
+}

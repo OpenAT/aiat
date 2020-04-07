@@ -1,0 +1,30 @@
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+.dadi_sb_bg_lightgrey .flexibleContainerCell,
+.dadi_sb_fg_lightgrey .flexibleContainerCell .nestedContainerCell {
+    background-color: #f9f9f9;
+}
+
+.dadi_sb_bg_grey .flexibleContainerCell,
+.dadi_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
+    background-color: #E0DED9;
+}
+
+.dadi_sb_bg_orange .flexibleContainerCell,
+.dadi_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
+    background-color: #ffff00;
+    color: white;
+}
+
+.dadi_sb_bg_pink .flexibleContainerCell,
+.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell {
+    background-color: #fb8dca;
+    color: white;
+}
+
+.dadi_sb_bg_blue .flexibleContainerCell,
+.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    background-color: #0070ac;
+    color: white;
+}

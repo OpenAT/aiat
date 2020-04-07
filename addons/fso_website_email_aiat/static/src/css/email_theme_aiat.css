@@ -1,0 +1,82 @@
+/* --------- */
+/* AIAT MAIN */
+/* --------- */
+html, body, #bodyTable, #bodyCell {
+    background-color: #ffffff;
+}
+
+/* ---------- */
+/* Typography */
+/* ---------- */
+p, td, a, div, span {
+    font-family: 'Open sans', Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    color: #000000;
+}
+
+.snippet_block p {
+    margin-top: 0;
+    margin-block-start: 0;
+    margin-bottom: 0;
+    margin-block-end: 0;
+}
+
+/* LINKS */
+a {
+    color: #000000;
+    background-color: #FFFF00;
+    text-decoration: underline;
+}
+
+/* HEADLINES */
+.h1, .h2, .h3,
+h1, h2, h3 {
+    margin-top: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open sans', Arial, Verdana, Helvetica, sans-serif;
+    line-height: 110%;
+    color: grey;
+
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+.h1, h1 {
+    font-size: 46px;
+    padding-bottom: 12px;
+}
+.h2, h2 {
+    font-size: 33px;
+}
+.h3, h3 {
+    font-size: 27px;
+}
+.h4, h4 {
+    font-size: 23px;
+}
+.h5, h5 {
+    font-size: 14px;
+}
+.h6, h6 {
+    font-size: 12px;
+}
+
+/* BLOCKQUOTE */
+blockquote {
+    padding: 11px 22px;
+    margin: 0 0 22px;
+    font-size: 20px;
+    border-left: 5px solid #FFFF00;
+}
