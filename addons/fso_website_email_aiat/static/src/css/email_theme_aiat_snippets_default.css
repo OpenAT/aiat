@@ -1,0 +1,9 @@
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+
+.dadi_sb_bg_yellow .flexibleContainerCell,
+.dadi_sb_fg_yellow .flexibleContainerCell .nestedContainerCell {
+    background-color: #ffff00;
+    color: red !important;
+}
