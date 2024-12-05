@@ -69,25 +69,25 @@ form input[type="text"], form select, form textarea, div.form-danke input[type="
 }
 
 form input[type="text"]::-webkit-input-placeholder, form select::-webkit-input-placeholder, form textarea::-webkit-input-placeholder, div.form-danke input[type="text"]::-webkit-input-placeholder, div.form-danke select::-webkit-input-placeholder, div.form-danke textarea::-webkit-input-placeholder {
-    color: #363636
+    color: #b6b6b6
 }
 
 form input[type="text"]:-moz-placeholder, form select:-moz-placeholder, form textarea:-moz-placeholder, div.form-danke input[type="text"]:-moz-placeholder, div.form-danke select:-moz-placeholder, div.form-danke textarea:-moz-placeholder {
-    color: #363636;
+    color: #b6b6b6;
     opacity: 1
 }
 
 form input[type="text"]::-moz-placeholder, form select::-moz-placeholder, form textarea::-moz-placeholder, div.form-danke input[type="text"]::-moz-placeholder, div.form-danke select::-moz-placeholder, div.form-danke textarea::-moz-placeholder {
-    color: #363636;
+    color: #b6b6b6;
     opacity: 1
 }
 
 form input[type="text"]:-ms-input-placeholder, form select:-ms-input-placeholder, form textarea:-ms-input-placeholder, div.form-danke input[type="text"]:-ms-input-placeholder, div.form-danke select:-ms-input-placeholder, div.form-danke textarea:-ms-input-placeholder {
-    color: #363636
+    color: #b6b6b6;
 }
 
 form input[type="text"]::-ms-input-placeholder, form select::-ms-input-placeholder, form textarea::-ms-input-placeholder, div.form-danke input[type="text"]::-ms-input-placeholder, div.form-danke select::-ms-input-placeholder, div.form-danke textarea::-ms-input-placeholder {
-    color: #363636
+    color: #b6b6b6;
 }
 
 /*form input[type=radio], div.form-danke input[type=radio] {*/
