@@ -72,6 +72,7 @@ form input[type="text"]::-webkit-input-placeholder, form select::-webkit-input-p
     color: #b6b6b6
 }
 
+/* Placeholders START */
 form input[type="text"]:-moz-placeholder, form select:-moz-placeholder, form textarea:-moz-placeholder, div.form-danke input[type="text"]:-moz-placeholder, div.form-danke select:-moz-placeholder, div.form-danke textarea:-moz-placeholder {
     color: #b6b6b6;
     opacity: 1
@@ -89,6 +90,8 @@ form input[type="text"]:-ms-input-placeholder, form select:-ms-input-placeholder
 form input[type="text"]::-ms-input-placeholder, form select::-ms-input-placeholder, form textarea::-ms-input-placeholder, div.form-danke input[type="text"]::-ms-input-placeholder, div.form-danke select::-ms-input-placeholder, div.form-danke textarea::-ms-input-placeholder {
     color: #b6b6b6;
 }
+
+/* Placeholders START */
 
 form input[type=checkbox]:checked + label:before, form input[type=checkbox]:checked + input[type=hidden] + label:before, div.form-danke input[type=checkbox]:checked + label:before, div.form-danke input[type=checkbox]:checked + input[type=hidden] + label:before {
     content: '\f046'
